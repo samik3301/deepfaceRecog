@@ -14,9 +14,23 @@ Recommended to test this in a python virtual environment.
 
 To test this project, unique person image data can be placed inside `deepfacerecog/db/`. Upto 5 different images of the same person can be added to the database.
 
+ The directory structure should be arranged as illustrated below.
+
+```bash
+user
+├── database
+│   ├── Alice
+│   │   ├── Alice1.jpg
+│   │   ├── Alice2.jpg
+│   ├── Bob
+│   │   ├── Bob.jpg
+```
+
 `target.img` is the testing data, which will be tested against the known labeled data in the database. Change this to test against different data from different people.
 
 Navigate into the project directory after cloning the project and then run, `deepface.ipynb`. 
+
+Navigate into the project directory and run the `realtime.py` script for Webcam Real time video streaming face recognition after the database has been updated with the correct label (name of the person).
 
 ### Methodology and Working Explained: 
 
