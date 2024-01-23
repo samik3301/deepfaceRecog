@@ -1,4 +1,7 @@
 from deepface import DeepFace
+
+#Change the db_path to your Database absolute path
+
 DeepFace.stream(db_path = "/Users/samik/Desktop/Programming/deepfaceRecog/db",model_name="VGG-Face",detector_backend="opencv",enable_face_analysis=False,time_threshold=2,frame_threshold=1)
 '''
 RetinaFace and MTCNN seem to overperform in detection and alignment stages but they are much slower. 
