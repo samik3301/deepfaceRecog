@@ -60,8 +60,11 @@ The time taken for the model to find the most similar match from the database ca
 
 *Update :*
 Find function now returns a pandas dataframe, with the distance column named as distance by default. Improved naming practice for clarity and consistency. 
-Version 0.0.83 Update
 
+Recent update in the VGG-Face-
+VGG-Face Model Structure Update: A significant change has been made to the model structure of the VGG-Face model. The last layer, originally with 2622 output nodes for classifying identities, has been replaced. The model now utilizes its early layer, featuring 4096 output nodes. This modification is backed by experiments demonstrating an impressive accuracy improvement of nearly 6%.
+
+Version 0.0.83 Update [Latest]
 ### Progress : 
 
 -Checking with live video feed and face tracking functionality using OpenCV, image frame saving on command with user input label inside correct directory. 
