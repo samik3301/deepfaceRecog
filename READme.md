@@ -58,6 +58,10 @@ The time taken for the model to find the most similar match from the database ca
 
 **Note: Discrepancy from the official documentation on repository, the `Deepface.find()` method returns a list, NOT a dataframe object.**
 
+*Update :*
+Find function now returns a pandas dataframe, with the distance column named as distance by default. Improved naming practice for clarity and consistency. 
+Version 0.0.83 Update
+
 ### Progress : 
 
 -Checking with live video feed and face tracking functionality using OpenCV, image frame saving on command with user input label inside correct directory. 
